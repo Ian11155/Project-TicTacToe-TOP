@@ -34,6 +34,7 @@ function gameBoard() {
                     player1.addMove(currentCoord);
                     gameLogic(player1, player2);
                 }
+                box.style.pointerEvents = "none"
                 return box.id
             });
             boardContainer.appendChild(box);
